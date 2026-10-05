@@ -1,0 +1,59 @@
+{
+ "seed_zone": 478,
+ "perturbation": {
+  "seed": 13,
+  "relative_size": 0.0001
+ },
+ "distance_A_B": 3.928105156032232,
+ "runs": {
+  "siting_A": {
+   "status": "CONVERGED",
+   "iterations": 2622,
+   "final_step_norm": 9.965361869035405e-13,
+   "start_convention": "capacity",
+   "peaks": [
+    33,
+    184,
+    314,
+    452
+   ],
+   "peak_densities": [
+    5.535180448249388,
+    4.819136690470694,
+    6.842140062036899,
+    3.6585054897950084
+   ],
+   "perturbation_return_distance": 6.78339209385669e-14,
+   "margin_passed": true,
+   "kappa_at_zero": 0.1685425380273518,
+   "min_closed_mass": 0.051637693236795415
+  },
+  "siting_B": {
+   "status": "CONVERGED",
+   "iterations": 2542,
+   "final_step_norm": 9.894307595459395e-13,
+   "start_convention": "custom",
+   "peaks": [
+    33,
+    184,
+    314,
+    478
+   ],
+   "peak_densities": [
+    5.44958773426384,
+    4.779036860644541,
+    6.8539064255411075,
+    3.489538950791975
+   ],
+   "perturbation_return_distance": 3.883595252277539e-11,
+   "margin_passed": true,
+   "kappa_at_zero": 0.16814238260846112,
+   "min_closed_mass": 0.0513515787013366
+  }
+ },
+ "fingerprints_identical_except_solver_fields": [
+  "start_convention",
+  "start_sha256"
+ ],
+ "kernel_landscape_model_identical": true
+}

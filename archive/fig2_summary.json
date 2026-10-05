@@ -1,0 +1,54 @@
+{
+ "kappa_star_unpenalized": 0.05102900987779269,
+ "series": [
+  0.0051,
+  0.0128,
+  0.0255
+ ],
+ "runs": {
+  "ring512_kappa0": {
+   "kappa": 0.0,
+   "status": "CONVERGED",
+   "iterations": 1308,
+   "final_step_norm": 9.947598300641403e-13,
+   "max_density": 20.090460654877404,
+   "peaks": 1,
+   "margin_passed": true,
+   "kappa_at_zero": 0.05102900987779269,
+   "min_closed_mass": 0.028327178688978976
+  },
+  "ring512_kappa0.0051": {
+   "kappa": 0.0051,
+   "status": "CONVERGED",
+   "iterations": 1722,
+   "final_step_norm": 9.947598300641403e-13,
+   "max_density": 4.220821927867905,
+   "peaks": 2,
+   "margin_passed": true,
+   "kappa_at_zero": 0.26576375862227547,
+   "min_closed_mass": 0.08133615794428833
+  },
+  "ring512_kappa0.0128": {
+   "kappa": 0.0128,
+   "status": "CONVERGED",
+   "iterations": 957,
+   "final_step_norm": 9.805489753489383e-13,
+   "max_density": 2.7449647489980458,
+   "peaks": 4,
+   "margin_passed": true,
+   "kappa_at_zero": 0.4513868700951599,
+   "min_closed_mass": 0.09521521827844487
+  },
+  "ring512_kappa0.0255": {
+   "kappa": 0.0255,
+   "status": "CONVERGED",
+   "iterations": 560,
+   "final_step_norm": 9.64561763794336e-13,
+   "max_density": 2.153182385295507,
+   "peaks": 4,
+   "margin_passed": true,
+   "kappa_at_zero": 0.6467472508202472,
+   "min_closed_mass": 0.11102422766531203
+  }
+ }
+}

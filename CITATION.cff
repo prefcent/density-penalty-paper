@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "density-penalty-paper: reproduction archive for \"Preferential centrality with a density penalty\""
+message: >-
+  Please cite the note together with this archive when using its scripts or
+  archived runs, and cite prefcent for the solver.
+type: software
+authors:
+  - family-names: Hellervik
+    given-names: Alexander
+    orcid: "https://orcid.org/0000-0001-5899-718X"
+    affiliation: Chalmers University of Technology
+version: 1.0.0
+license: MIT
+repository-code: https://github.com/prefcent/density-penalty-paper
+abstract: >-
+  Scripts, archived states and run manifests behind the eight figures of
+  "Preferential centrality with a density penalty: formulation and an
+  open-source implementation" (Hellervik, 2026): 23 figure runs and seven
+  multi-start sweeps (19,692 runs) on synthetic landscapes, all solved with
+  prefcent 0.1.1. make check re-solves runs and compares their result hashes
+  with the archived manifests.
+keywords:
+  - preferential centrality
+  - spatial interaction
+  - density penalty
+  - reproducibility
+references:
+  - type: software
+    authors:
+      - family-names: Hellervik
+        given-names: Alexander
+    title: prefcent
+    version: 0.1.1
+    doi: 10.5281/zenodo.23103539
+    repository-code: https://github.com/prefcent/prefcent
+  - type: article
+    authors:
+      - family-names: Hellervik
+        given-names: Alexander
+    title: "Preferential centrality with a density penalty: formulation and an open-source implementation"
+    year: 2026

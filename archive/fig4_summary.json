@@ -1,0 +1,92 @@
+{
+ "scales": [
+  10.0,
+  3.0,
+  1.0,
+  0.3
+ ],
+ "torus": {
+  "decay_torus_s10": {
+   "scale": 10.0,
+   "status": "CONVERGED",
+   "iterations": 398,
+   "max_density": 4.963282398158053,
+   "centers": 3,
+   "margin_passed": true,
+   "kappa_at_zero": 0.2640321172770447,
+   "min_closed_mass": 0.2981466026387215
+  },
+  "decay_torus_s3": {
+   "scale": 3.0,
+   "status": "CONVERGED",
+   "iterations": 551,
+   "max_density": 3.599930372286848,
+   "centers": 3,
+   "margin_passed": true,
+   "kappa_at_zero": 0.3566045304464612,
+   "min_closed_mass": 0.35801686257849646
+  },
+  "decay_torus_s1": {
+   "scale": 1.0,
+   "status": "CONVERGED",
+   "iterations": 393,
+   "max_density": 1.7610240693534318,
+   "centers": 2,
+   "margin_passed": true,
+   "kappa_at_zero": 0.9040673966426137,
+   "min_closed_mass": 0.45397736674542694
+  },
+  "decay_torus_s0.3": {
+   "scale": 0.3,
+   "status": "CONVERGED",
+   "iterations": 184,
+   "max_density": 1.160647350566524,
+   "centers": 0,
+   "margin_passed": true,
+   "kappa_at_zero": 3.4322423822340125,
+   "min_closed_mass": 0.524858251226518
+  }
+ },
+ "ring": {
+  "decay_ring_s10": {
+   "scale": 10.0,
+   "status": "CONVERGED",
+   "iterations": 1193,
+   "max_density": 2.4040355729563427,
+   "peaks": 6,
+   "margin_passed": true,
+   "kappa_at_zero": 0.5447249217079283,
+   "min_closed_mass": 0.08982745481764613
+  },
+  "decay_ring_s3": {
+   "scale": 3.0,
+   "status": "CONVERGED",
+   "iterations": 1049,
+   "max_density": 2.6637532676998634,
+   "peaks": 6,
+   "margin_passed": true,
+   "kappa_at_zero": 0.4718636357890281,
+   "min_closed_mass": 0.08594541768245273
+  },
+  "decay_ring_s1": {
+   "scale": 1.0,
+   "status": "CONVERGED",
+   "iterations": 954,
+   "max_density": 2.7449647489709568,
+   "peaks": 4,
+   "margin_passed": true,
+   "kappa_at_zero": 0.4513868701011712,
+   "min_closed_mass": 0.09521521827851283
+  },
+  "decay_ring_s0.3": {
+   "scale": 0.3,
+   "status": "CONVERGED",
+   "iterations": 625,
+   "max_density": 2.149996364398243,
+   "peaks": 1,
+   "margin_passed": true,
+   "kappa_at_zero": 0.6347535249412,
+   "min_closed_mass": 0.13265103844828177
+  }
+ }
+}

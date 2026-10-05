@@ -1,0 +1,14 @@
+sweep        points   >=2 differ  max budget domain states returned
+prelim_k0.05    196     0      0    1      0     62      0        0
+prelim_k0.02    196     4      0    2      0      0      8        8
+prelim_k0.01    196    27      8    4      0      0     60       60
+amplitude       105     0      0    1      0      0      0        0
+probe            72    68     10    4     16      0    194      194
+grid_sigma      420   175      7    6     25      0    567      567
+grid_s          420   172     75   14      0      0    611      611
+
+grid_s and grid_sigma:
+  largest distance within one state:   3.66e-08
+  smallest distance between states:    10.04
+  largest perturbation-return distance: 3.67e-08
+  Figure 8 point: rand202ls0.5 gamma=3 kappa=0.01 s=3

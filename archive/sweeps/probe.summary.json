@@ -1,0 +1,5110 @@
+{
+ "sweep": "probe",
+ "grid": {
+  "lands": [
+   [
+    "rand101",
+    0.01
+   ],
+   [
+    "rand101",
+    0.05
+   ],
+   [
+    "rand202",
+    0.01
+   ],
+   [
+    "rand202",
+    0.05
+   ],
+   [
+    "rand303",
+    0.01
+   ],
+   [
+    "rand303",
+    0.05
+   ]
+  ],
+  "gammas": [
+   2.5,
+   3.0,
+   4.0
+  ],
+  "scales": [
+   1.0,
+   3.0
+  ],
+  "kappas": [
+   0.01,
+   0.005
+  ],
+  "starts": [
+   0,
+   2,
+   5,
+   8
+  ]
+ },
+ "protocol": {
+  "omega": 0.5,
+  "tol": 1e-12,
+  "max_iter": 400000,
+  "same_tol": 1e-06,
+  "perturb": 0.0001,
+  "norm": "max|a-b|/mean(R)",
+  "centers": "9x9 periodic-neighborhood density maxima above 1.3"
+ },
+ "points": [
+  {
+   "land": "rand101ls0.01",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 2,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 55.71679806356645,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 55.71679806356645,
+     "shift_dist": 10.409474207982711
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.005_g2.5_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 54.62375960986839,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 94148,
+      "return_dist": 2.525979425627156e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g2.5_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 55.4047110804861,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 47246,
+      "return_dist": 1.4949819160392508e-11
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 1,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 49.078757629026576,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 71.3657935810653,
+     "shift_dist": 64.27426537803399
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 71.06977737589064,
+     "shift_dist": 65.17978177331932
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 49.078757629026576,
+     "shift_dist": 30.93457781396187
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.005_g2.5_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 70.73183585396204,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 24888,
+      "return_dist": 4.02717148517695e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 70.52292361447444,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 18033,
+      "return_dist": 2.423568901122053e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 70.22046232094935,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 88550,
+      "return_dist": 6.398437335519702e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.1134280103751735e-08,
+   "min_between": 60.0799259222766,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 60.0799259222766,
+     "shift_dist": 3.7091729714751764
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 60.584949112519155,
+     "shift_dist": 9.602200969715032
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 60.91028360883135,
+     "shift_dist": 8.317380721981795
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 59.483703059554884,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 79825,
+      "return_dist": 1.7325689327662985e-08
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 58.55266586148537,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 108924,
+      "return_dist": 9.701395242700528e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 60.075229317920474,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 48352,
+      "return_dist": 1.4715340057591675e-11
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 74.7915390613945,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 75.89186457807635,
+     "shift_dist": 60.61657601831622
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 76.10960976360738,
+     "shift_dist": 53.01773386989086
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 74.7915390613945,
+     "shift_dist": 38.980046821345546
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 76.08551912532843,
+     "shift_dist": 39.34630527817127
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 76.1043807111083,
+     "shift_dist": 56.894691865418224
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 76.09774962879104,
+     "shift_dist": 50.18403051522495
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 75.37830838999281,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 15451,
+      "return_dist": 1.2549463690447737e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 75.01530557770411,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16703,
+      "return_dist": 2.6940867314806383e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 75.14563090768478,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 56679,
+      "return_dist": 1.55964130499342e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g3_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 75.03318956470298,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16387,
+      "return_dist": 2.7077931008534506e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.2377275143981024e-08,
+   "min_between": 65.62308217516521,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 65.62308217516521,
+     "shift_dist": 8.032699371758323
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 66.05138870182742,
+     "shift_dist": 8.36988440429229
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 66.28917950284077,
+     "shift_dist": 7.857733222157663
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 64.91034469784832,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 92045,
+      "return_dist": 1.9705971965322533e-08
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 64.71224301068773,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 99610,
+      "return_dist": 2.2294486257123936e-08
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 65.32125112993803,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 50658,
+      "return_dist": 9.807077816503806e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 79.45890924448815,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 80.95302389989557,
+     "shift_dist": 60.60731535612221
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 80.04729138489,
+     "shift_dist": 78.62877543069396
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 81.00271462894877,
+     "shift_dist": 79.08733305001067
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 80.32058797474228,
+     "shift_dist": 59.925783031615076
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 80.95665560638014,
+     "shift_dist": 32.4197287206086
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 79.45890924448815,
+     "shift_dist": 79.72612330453147
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 79.92696824275558,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 68409,
+      "return_dist": 5.4072302191343624e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 80.37233904619524,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 31587,
+      "return_dist": 5.098449662455096e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 71.14797135848514,
+     "centers": 3,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 50671,
+      "return_dist": 4.6000536713108886e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.005_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 80.79749402908952,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 18566,
+      "return_dist": 3.374630352936947e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.3915092128845572e-11,
+   "min_between": 25.234447709203852,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 25.234447709203852,
+     "shift_dist": 2.2738092391396876
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.01_g2.5_s1_st0",
+     "starts": [
+      0,
+      5
+     ],
+     "max_density": 25.33665448097382,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 35031,
+      "return_dist": 1.6969181615422713e-10
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g2.5_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 25.228231291541768,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 101572,
+      "return_dist": 2.0563277303153882e-08
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 32.93361056905743,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 38.301126622770255,
+     "shift_dist": 6.147280025438015
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 38.353409423067056,
+     "shift_dist": 6.433473787707232
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 37.688128445252424,
+     "shift_dist": 3.3575037809150317
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 38.3588767053573,
+     "shift_dist": 32.2385812069876
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 37.57032364585658,
+     "shift_dist": 32.17395218898601
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 32.93361056905743,
+     "shift_dist": 32.13748646376951
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.01_g2.5_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 38.4732981597821,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 57017,
+      "return_dist": 1.2959688433511474e-08
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 37.56748214576064,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 59081,
+      "return_dist": 7.105427357601002e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 37.737640162762034,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 57334,
+      "return_dist": 1.5646151041437406e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g2.5_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 33.478985532100545,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 66974,
+      "return_dist": 2.4733992631809087e-11
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.4517277097402257e-11,
+   "min_between": 28.592304786319666,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 29.282952618471256,
+     "shift_dist": 3.518434291798714
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 28.592304786319666,
+     "shift_dist": 2.5393791879544487
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 29.319572202048107,
+     "shift_dist": 2.5782911117330443
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.01_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 29.290432302411624,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 34163,
+      "return_dist": 8.380526494988771e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g3_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 28.957530085372397,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 122528,
+      "return_dist": 1.0857093002414331e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g3_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 29.19119171904748,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 40735,
+      "return_dist": 8.12548961448556e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.06439301816863e-11,
+   "min_between": 36.832061310420336,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 36.832061310420336,
+     "shift_dist": 25.942283343112386
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.01_g3_s3_st0",
+     "starts": [
+      0,
+      2,
+      5
+     ],
+     "max_density": 37.0777458277778,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 98227,
+      "return_dist": 1.855367770531302e-08
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g3_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 36.598475295289234,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 65249,
+      "return_dist": 1.6076029396572267e-11
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 1,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 32.98342944534878,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 33.425182163956904,
+     "shift_dist": 2.7937288466596275
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 32.98342944534878,
+     "shift_dist": 1.8859925914318225
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 33.5467623195615,
+     "shift_dist": 4.618091366525507
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.01_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 33.336481877686325,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 49789,
+      "return_dist": 1.0611955758577096e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 33.018255908331575,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 149997,
+      "return_dist": 7.720046824033489e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g4_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 33.30379502418899,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 44282,
+      "return_dist": 1.028155338644865e-11
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.01",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.948647820881888e-08,
+   "min_between": 40.52035849478711,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 40.52035849478711,
+     "shift_dist": 25.96099026814502
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.01_k0.01_g4_s3_st0",
+     "starts": [
+      0,
+      5
+     ],
+     "max_density": 40.77493327264259,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 77297,
+      "return_dist": 4.7904791244945955e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.01_k0.01_g4_s3_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 41.11113559464492,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 92698,
+      "return_dist": 5.510258915819577e-11
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 6.624894410833802e-09,
+   "min_between": 59.115279203272884,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 59.115279203272884,
+     "shift_dist": 3.4466587028273956
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 60.510222272618805,
+     "shift_dist": 10.197403241338602
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 60.92781829301662,
+     "shift_dist": 7.020059207749117
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.005_g2.5_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 54.67637857741901,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25326,
+      "return_dist": 1.1134204669360767e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g2.5_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 54.24226016437449,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 38864,
+      "return_dist": 6.628969373423386e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g2.5_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 55.301585972943656,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 9186,
+      "return_dist": 3.826272632068139e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 6.348955139401367e-09,
+   "min_between": 75.47362138452345,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 75.47362138452345,
+     "shift_dist": 68.17236111380102
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.005_g2.5_s3_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 69.92700048982915,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 12542,
+      "return_dist": 1.3129479725648705e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g2.5_s3_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 68.93010788796106,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 38405,
+      "return_dist": 2.216893335571512e-12
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 5.54904744376472e-09,
+   "min_between": 64.29185518227024,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 64.29185518227024,
+     "shift_dist": 7.231862787491391
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 65.57723051920281,
+     "shift_dist": 9.30564973296724
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 65.91011341086745,
+     "shift_dist": 8.420109205948823
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 59.40529540498037,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 26440,
+      "return_dist": 4.56536497495108e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 58.59227537594779,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 30835,
+      "return_dist": 8.95283847057726e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 59.7682516973218,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 13624,
+      "return_dist": 7.467804152838651e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 17.061711906590514,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 22.322734572664377,
+     "shift_dist": 20.471568455410242
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 80.49969721249659,
+     "shift_dist": 72.57389954526403
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 80.36503811239726,
+     "shift_dist": 72.15294761929569
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 80.5045697034143,
+     "shift_dist": 72.68994601046077
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 80.37074429649816,
+     "shift_dist": 72.31903438370956
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 17.061711906590514,
+     "shift_dist": 15.518486197365299
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 74.50581335573659,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 12384,
+      "return_dist": 6.52988774163532e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 74.00787781012625,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 131542,
+      "return_dist": 2.4839714285462826e-08
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 73.8344061922525,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20426,
+      "return_dist": 3.6647591628025103e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g3_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 73.97982250790507,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 15447,
+      "return_dist": 1.8644641386345026e-11
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 6.095767446367971e-09,
+   "min_between": 70.47319383754477,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 70.47319383754477,
+     "shift_dist": 12.308801723214472
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 71.30940788626987,
+     "shift_dist": 8.060812771858338
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 71.54839922740562,
+     "shift_dist": 6.977783017025381
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 64.68983936504408,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 31706,
+      "return_dist": 1.3454126701617494e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 64.77100176845089,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 34579,
+      "return_dist": 3.9435121834685554e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 64.82317417621503,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 14293,
+      "return_dist": 2.742694960033986e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 28.371290519182978,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 87.05867136994684,
+     "shift_dist": 78.121690693966
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 86.2476827149533,
+     "shift_dist": 77.90438908374048
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 57.824998207700865,
+     "shift_dist": 57.040093481582154
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 86.80404339473502,
+     "shift_dist": 78.1515142903354
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 28.371290519182978,
+     "shift_dist": 25.737972825975767
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 62.9737697561313,
+     "shift_dist": 57.045649317678745
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 79.68792906643324,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 11822,
+      "return_dist": 2.3945290195115372e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 79.18180220956641,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 10061,
+      "return_dist": 7.730704965069889e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 71.49788707834917,
+     "centers": 3,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 30659,
+      "return_dist": 5.498918653756845e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.005_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 78.95166940014002,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 13163,
+      "return_dist": 1.9724666344700377e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 8.5265128291212e-13,
+   "min_between": 27.20799810740649,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 27.51195618387194,
+     "shift_dist": 1.9820258933209018
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 27.20799810740649,
+     "shift_dist": 2.997417762532354
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 28.12030157672383,
+     "shift_dist": 2.5862858757984952
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.01_g2.5_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 25.85044534864007,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 8876,
+      "return_dist": 3.181455099365848e-11
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g2.5_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 25.710242736144092,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25739,
+      "return_dist": 5.151669313363526e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g2.5_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 25.829454365545697,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 9066,
+      "return_dist": 1.6138095304540907e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 3.222549338488533e-09,
+   "min_between": 36.13467986892583,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 36.13467986892583,
+     "shift_dist": 31.332126512703248
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.01_g2.5_s3_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 34.089519375417396,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20333,
+      "return_dist": 2.3128166048991257e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g2.5_s3_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 33.98278140601386,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 14633,
+      "return_dist": 1.883080358311417e-10
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.2328805471261144e-12,
+   "min_between": 31.54987432111061,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 31.54987432111061,
+     "shift_dist": 3.594904121493096
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 31.5563554025617,
+     "shift_dist": 2.216027255553456
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 32.30572096553032,
+     "shift_dist": 2.449736887567287
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.01_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 29.539838807288515,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 10041,
+      "return_dist": 1.3820056210533945e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g3_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 29.0852923874906,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 38924,
+      "return_dist": 1.84741111297626e-13
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g3_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 29.57101152404595,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 10180,
+      "return_dist": 2.8421709430404e-14
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 3.1451676818505794e-09,
+   "min_between": 40.02949060550624,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 40.02949060550624,
+     "shift_dist": 34.971113177189686
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.01_g3_s3_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 36.998591923746616,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 18217,
+      "return_dist": 3.143505011848901e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g3_s3_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 36.92587130126706,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16393,
+      "return_dist": 2.963300715919103e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.3223200312495461e-11,
+   "min_between": 35.77227913433866,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 35.77227913433866,
+     "shift_dist": 2.1397003852561554
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 36.09508646941188,
+     "shift_dist": 2.0214756246043866
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 36.66948026026419,
+     "shift_dist": 4.126210941113907
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.01_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 33.39867553459742,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 11665,
+      "return_dist": 3.90443233300175e-12
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g4_s1_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 33.06171745998502,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 37886,
+      "return_dist": 7.381977695786189e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g4_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 33.4728558159271,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 9599,
+      "return_dist": 5.6843418860808e-13
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand101ls0.05",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 3.7767335925309445e-09,
+   "min_between": 44.19996625073399,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 44.19996625073399,
+     "shift_dist": 37.474830427040075
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand101ls0.05_k0.01_g4_s3_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 41.22404087130653,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20549,
+      "return_dist": 3.773958923147801e-09
+     }
+    },
+    {
+     "rep": "rand101ls0.05_k0.01_g4_s3_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 40.73458554525703,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 17827,
+      "return_dist": 2.764441120461924e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.0232718611623568e-08,
+   "min_between": 55.89829766201658,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 56.34240272718799,
+     "shift_dist": 1.7328150128147968
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 56.22432971506617,
+     "shift_dist": 6.354803196848554
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 55.89829766201658,
+     "shift_dist": 5.8528053715821144
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.005_g2.5_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 55.762871124173245,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 38811,
+      "return_dist": 4.643396778192255e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g2.5_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 55.60968937507861,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 165215,
+      "return_dist": 4.2525982735242e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g2.5_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 54.83538733301773,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 107076,
+      "return_dist": 3.0524915928253904e-11
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 2,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 71.58682801269627,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 71.58682801269627,
+     "shift_dist": 53.94722185974598
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.005_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 70.64596458878653,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 17078,
+      "return_dist": 2.899369633269089e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g2.5_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 70.65683823013154,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 19895,
+      "return_dist": 3.0606415180045587e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.851144659781312e-08,
+   "min_between": 60.419644524604266,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 61.12853938858099,
+     "shift_dist": 4.769492777037691
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 61.033590013879774,
+     "shift_dist": 7.398434851366595
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 60.419644524604266,
+     "shift_dist": 2.8397172939400157
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.005_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 60.42824021780108,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 43447,
+      "return_dist": 1.2228440482431324e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g3_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 60.04330520802493,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 122523,
+      "return_dist": 2.1685764295398258e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g3_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 59.48787636053965,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 93253,
+      "return_dist": 3.5136338283336954e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 4.099831585335778e-12,
+   "min_between": 73.14218453960565,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 76.15289670578993,
+     "shift_dist": 56.71040207328298
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 73.14218453960565,
+     "shift_dist": 34.79033266114419
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 75.86799945237371,
+     "shift_dist": 44.70002495150845
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.005_g3_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 75.15494430864261,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16405,
+      "return_dist": 1.8066899087898491e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g3_s3_st2",
+     "starts": [
+      2,
+      8
+     ],
+     "max_density": 75.10635539297775,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 12385,
+      "return_dist": 3.573177309590392e-10
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 74.54458694678496,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 49956,
+      "return_dist": 3.980105134360201e-10
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.8324797679269977e-08,
+   "min_between": 65.68620460017664,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 66.38239513488125,
+     "shift_dist": 8.701329831291645
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 66.31242857711997,
+     "shift_dist": 8.77487783404209
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 65.68620460017664,
+     "shift_dist": 0.4218399847580656
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 65.54750225158409,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 37340,
+      "return_dist": 7.484239006316784e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 64.88851486433079,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 102397,
+      "return_dist": 1.970286689356726e-08
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 64.73995742475047,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 104176,
+      "return_dist": 3.2656544135534205e-11
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 80.58256741599062,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 81.43911831384364,
+     "shift_dist": 58.91622290585623
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 80.58256741599062,
+     "shift_dist": 58.43571083849588
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 81.86355066980384,
+     "shift_dist": 60.4786085345143
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 81.00227235571978,
+     "shift_dist": 58.25276908930821
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 81.37176136740389,
+     "shift_dist": 43.38001578045376
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 81.86000014251579,
+     "shift_dist": 74.21579468048392
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 79.85458609114507,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 55755,
+      "return_dist": 3.822719918389339e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 80.50609803630707,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 11394,
+      "return_dist": 1.836895080487011e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 80.63484063381364,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 11372,
+      "return_dist": 2.2520652009916375e-10
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.005_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 80.3525074318105,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 49653,
+      "return_dist": 8.89274787141403e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.0521507221028514e-08,
+   "min_between": 25.277878251763305,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 25.277878251763305,
+     "shift_dist": 1.4640976756745214
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.01_g2.5_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 25.12225517359806,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 40925,
+      "return_dist": 1.0525187832399752e-08
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.01_g2.5_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 25.28619681016428,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 22624,
+      "return_dist": 2.5864999031455227e-10
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 2,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 32.21468200127743,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 32.21468200127743,
+     "shift_dist": 31.651232925561935
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.01_g2.5_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 38.33487407956358,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 31365,
+      "return_dist": 2.1671553440683056e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.01_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 33.72220302778708,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 110938,
+      "return_dist": 1.1883827255587676e-11
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.2087156164852786e-08,
+   "min_between": 28.864045736420337,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 29.05961498443083,
+     "shift_dist": 2.655042086451422
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 28.864045736420337,
+     "shift_dist": 2.1370236294686276
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 29.14010582238791,
+     "shift_dist": 0.8093589969752593
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.01_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 28.929971368145303,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 22651,
+      "return_dist": 6.871836433219869e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.01_g3_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 29.016936792635452,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 27746,
+      "return_dist": 6.185736367569916e-10
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.01_g3_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 28.984177231407195,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 57490,
+      "return_dist": 1.5774048733874224e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 1,
+   "n_budget": 3,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": null,
+   "pairs": [],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.01_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 36.35999847366383,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 63816,
+      "return_dist": 1.2632881407625973e-08
+     }
+    }
+   ],
+   "n_returned": 1
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 1,
+   "n_domain": 0,
+   "max_within": 1.4009426507755052e-08,
+   "min_between": 33.2661754714013,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 33.2661754714013,
+     "shift_dist": 2.3729161645543293
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.01_k0.01_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 33.242024006837724,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25140,
+      "return_dist": 4.906191009013128e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.01_k0.01_g4_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 32.97547780533636,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 66136,
+      "return_dist": 1.4017231819707376e-08
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.01",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 0,
+   "n_budget": 4,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": null,
+   "pairs": [],
+   "states": [],
+   "n_returned": 0
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 4.928040198137751e-09,
+   "min_between": 60.271926604777626,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 60.271926604777626,
+     "shift_dist": 5.959307835159553
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.005_g2.5_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 54.77581140444177,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 29999,
+      "return_dist": 3.353761712787673e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g2.5_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 55.639508440099725,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 35790,
+      "return_dist": 5.773216571469675e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 34.04708585396807,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 77.74570255131572,
+     "shift_dist": 67.74779532424736
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 72.65329230955909,
+     "shift_dist": 25.962915473372245
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 77.64246905531024,
+     "shift_dist": 68.33769941475529
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 34.04708585396807,
+     "shift_dist": 28.321165757447236
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 77.63244860487389,
+     "shift_dist": 68.22611731302467
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 73.24279341666288,
+     "shift_dist": 23.040583868192773
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.005_g2.5_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 70.5940361820476,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 41859,
+      "return_dist": 6.85027146118955e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 68.79020570265364,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 19416,
+      "return_dist": 2.978829627409141e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 70.53894633655992,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 21873,
+      "return_dist": 1.858069254012662e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g2.5_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 70.49204396448908,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 17532,
+      "return_dist": 2.8386324402163154e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 5.109768608235754e-09,
+   "min_between": 65.23687319688345,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 65.23687319688345,
+     "shift_dist": 3.677458333235222
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.005_g3_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 59.21945722641479,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 29908,
+      "return_dist": 3.289812866569264e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g3_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 60.036149086663976,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 28463,
+      "return_dist": 5.3101736341432115e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 78.30724690907888,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 81.20189251037948,
+     "shift_dist": 71.34763771463197
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 81.17098861958691,
+     "shift_dist": 68.54335980153029
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 81.51958513247364,
+     "shift_dist": 71.3138128759365
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 81.11118777796263,
+     "shift_dist": 72.09805931823264
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 82.04107465315559,
+     "shift_dist": 71.58470735051226
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 78.30724690907888,
+     "shift_dist": 24.114666803395387
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.005_g3_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 74.0755466030376,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 17168,
+      "return_dist": 1.7706724975141697e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 73.30369615215402,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 38207,
+      "return_dist": 6.2849920823282446e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 74.10841868076005,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 232960,
+      "return_dist": 4.422069821430341e-08
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g3_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 74.44860771403525,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16947,
+      "return_dist": 5.3997695204088814e-11
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 5.1542983214858396e-09,
+   "min_between": 70.85280821122397,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 70.85280821122397,
+     "shift_dist": 1.2555137335939897
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.005_g4_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 64.24457834808732,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 31460,
+      "return_dist": 5.164487504316639e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 64.76536254175159,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 22881,
+      "return_dist": 4.637055184275596e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 85.43346129994886,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 86.90313576585835,
+     "shift_dist": 77.58020542033128
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 87.47711608139083,
+     "shift_dist": 73.72491355927245
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 87.82032006604246,
+     "shift_dist": 76.13471331991661
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 86.8761600758096,
+     "shift_dist": 78.20736917166597
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 85.43346129994886,
+     "shift_dist": 78.38595926121364
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 87.85995263866606,
+     "shift_dist": 78.32269018926517
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.005_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 79.20947469747328,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 9156,
+      "return_dist": 1.4436238870985107e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 79.13817968236857,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 12072,
+      "return_dist": 1.7460806134295126e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 79.75259437544814,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16313,
+      "return_dist": 4.440892098500626e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.005_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 76.4232740819515,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 9397,
+      "return_dist": 1.3033059076406062e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.208999205777218e-09,
+   "min_between": 27.964754240942423,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 27.964754240942423,
+     "shift_dist": 1.1855834710558497
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.01_g2.5_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 25.70840728728185,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 13279,
+      "return_dist": 1.2185807918285718e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.01_g2.5_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 25.73465391221392,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 6429,
+      "return_dist": 1.0019505225500325e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 1,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 7.169376203819411e-12,
+   "min_between": null,
+   "pairs": [],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.01_g2.5_s3_st0",
+     "starts": [
+      0,
+      2,
+      5,
+      8
+     ],
+     "max_density": 34.02568631582928,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 24888,
+      "return_dist": 3.998902542434735e-09
+     }
+    }
+   ],
+   "n_returned": 1
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.5167317119212385e-09,
+   "min_between": 32.11031223125708,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 32.11031223125708,
+     "shift_dist": 0.773694227626482
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.01_g3_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 29.291062503882543,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 15068,
+      "return_dist": 1.758593271006248e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.01_g3_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 29.41542867655263,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 7086,
+      "return_dist": 9.041656312547275e-12
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 1,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 6.682654429823742e-12,
+   "min_between": null,
+   "pairs": [],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.01_g3_s3_st0",
+     "starts": [
+      0,
+      2,
+      5,
+      8
+     ],
+     "max_density": 37.188086917831534,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25239,
+      "return_dist": 4.129251607309925e-09
+     }
+    }
+   ],
+   "n_returned": 1
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.8896351977891754e-09,
+   "min_between": 36.19174313986576,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 36.19174313986576,
+     "shift_dist": 1.7401626706950566
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.01_g4_s1_st0",
+     "starts": [
+      0,
+      5,
+      8
+     ],
+     "max_density": 33.08681741090466,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 17954,
+      "return_dist": 4.0181191707233666e-12
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.01_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 33.188224811424334,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 40194,
+      "return_dist": 7.63349561339055e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand202ls0.05",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 43.2333992723409,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 44.54999406292691,
+     "shift_dist": 35.7080694050533
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 43.2333992723409,
+     "shift_dist": 35.410354406396316
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 44.614404466564565,
+     "shift_dist": 35.75083237641666
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 43.599213252412625,
+     "shift_dist": 39.05935390209601
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 44.55184529215929,
+     "shift_dist": 39.224740571952786
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 43.56983865653762,
+     "shift_dist": 39.87208423975625
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand202ls0.05_k0.01_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 40.456558579161744,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 39159,
+      "return_dist": 6.626027726497341e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.01_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 41.40874713397977,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 24417,
+      "return_dist": 4.276728304830613e-09
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.01_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 41.14831333528833,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 121961,
+      "return_dist": 2.1152857243578183e-11
+     }
+    },
+    {
+     "rep": "rand202ls0.05_k0.01_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 39.46591180152014,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 21198,
+      "return_dist": 3.6883527343434253e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 7.7755153427006e-09,
+   "min_between": 55.73955399415283,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 55.73955399415283,
+     "shift_dist": 5.534190353806167
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.005_g2.5_s1_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 54.507931359299775,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 37510,
+      "return_dist": 7.577742877629134e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g2.5_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 54.731837372036196,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 78948,
+      "return_dist": 1.4351563493164576e-08
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 23.64234238819313,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 72.29387989403219,
+     "shift_dist": 11.965931240622602
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 72.31823310241965,
+     "shift_dist": 68.85209512145853
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 71.56909079992316,
+     "shift_dist": 68.59737664621407
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 23.64234238819313,
+     "shift_dist": 23.487883689146845
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 72.46369812742012,
+     "shift_dist": 22.224933152584896
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 72.4880513358076,
+     "shift_dist": 69.016986343282
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.005_g2.5_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 70.749362411886,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 19006,
+      "return_dist": 2.9150086788831686e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 70.49464393664154,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 33017,
+      "return_dist": 1.6292744930979097e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 70.30673116748525,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 19791,
+      "return_dist": 3.1107560971577186e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g2.5_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 70.91425363370946,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 27283,
+      "return_dist": 1.2306600183364935e-11
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 5.8690829973784275e-12,
+   "min_between": 60.62047586306002,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 60.62047586306002,
+     "shift_dist": 9.43256693499464
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 60.69113877401717,
+     "shift_dist": 7.038438933668516
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 60.69576968242533,
+     "shift_dist": 8.191042299679388
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 59.28889374788874,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 50515,
+      "return_dist": 2.1231016944511794e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 60.42222096243789,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 92677,
+      "return_dist": 1.8006236501832973e-08
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 59.525311423049615,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 89410,
+      "return_dist": 4.817479748453479e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 51.60363020324641,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 76.98732916890165,
+     "shift_dist": 29.166328173484946
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 51.60363020324641,
+     "shift_dist": 33.22284774191173
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 77.17270269708106,
+     "shift_dist": 30.948542185100543
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 77.00871821788243,
+     "shift_dist": 34.419786198579956
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 75.63938486623672,
+     "shift_dist": 26.141419569055728
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 77.19409174606184,
+     "shift_dist": 31.765728020288236
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 75.29236696933356,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 158407,
+      "return_dist": 6.071587677070056e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 75.1296128335869,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 21405,
+      "return_dist": 1.6051160400820663e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 75.47236217329616,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 17530,
+      "return_dist": 1.829505436035106e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g3_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 75.07117208762361,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 39695,
+      "return_dist": 1.0063068600629776e-08
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 3.212008437003533e-11,
+   "min_between": 66.18875153029838,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 66.18875153029838,
+     "shift_dist": 8.76710495868026
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 66.21755379217637,
+     "shift_dist": 9.24433006333173
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 66.21137906295971,
+     "shift_dist": 8.937266277877768
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 64.66563950676489,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 55938,
+      "return_dist": 9.989097549123471e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 65.69994302251177,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 107291,
+      "return_dist": 8.043343768804334e-12
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 64.87430333953141,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 93208,
+      "return_dist": 1.7948348585150598e-08
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 78.33731928974802,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 81.19055797444356,
+     "shift_dist": 79.60902085799219
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 78.33731928974802,
+     "shift_dist": 30.349603671721887
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 80.40855573577366,
+     "shift_dist": 79.4730882618062
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 82.2519769353381,
+     "shift_dist": 33.79022514009202
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 80.3886826678043,
+     "shift_dist": 79.18603249270203
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 81.95765054979451,
+     "shift_dist": 19.574415177823923
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 80.3946716225474,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 13748,
+      "return_dist": 4.5410075699692243e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 70.53019842490804,
+     "centers": 3,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 47836,
+      "return_dist": 7.631030030097463e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 80.41646422880974,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 24052,
+      "return_dist": 3.957723038183758e-12
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.005_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 80.25510933059827,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 30179,
+      "return_dist": 4.940325482039043e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 6.432188115468307e-12,
+   "min_between": 25.237040600076664,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 25.237040600076664,
+     "shift_dist": 0.7255487481602145
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.01_g2.5_s1_st0",
+     "starts": [
+      0,
+      2,
+      8
+     ],
+     "max_density": 25.06935208973232,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20010,
+      "return_dist": 4.09553102542759e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g2.5_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 25.137004654197945,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 27664,
+      "return_dist": 5.0294275411033595e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 4.997957603336545e-10,
+   "min_between": 31.843206285035265,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 38.8500681303012,
+     "shift_dist": 31.501551011343054
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 38.681441240378696,
+     "shift_dist": 3.141086843998245
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 31.843206285035265,
+     "shift_dist": 31.545032814497823
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.01_g2.5_s3_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 38.345349448987115,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 30349,
+      "return_dist": 2.7653683787320915e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 33.1437799265141,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 61024,
+      "return_dist": 1.2245944702726774e-08
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 37.697733605253255,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 73978,
+      "return_dist": 6.458833468059311e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 4.334310688136611e-13,
+   "min_between": 29.106621501769038,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 29.106621501769038,
+     "shift_dist": 2.171459330976324
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 29.149342268608873,
+     "shift_dist": 0.736838081911042
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 29.17631632243623,
+     "shift_dist": 1.6031741286440298
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.01_g3_s1_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 28.761807687488986,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20355,
+      "return_dist": 4.455726454466458e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g3_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 29.131707572939934,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 50371,
+      "return_dist": 8.890211233847367e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g3_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 28.89635254214719,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 31913,
+      "return_dist": 5.969425842522469e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.2970957641300629e-11,
+   "min_between": 36.19978425789431,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 36.87202245903475,
+     "shift_dist": 23.994949378376877
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 36.86943158353116,
+     "shift_dist": 34.33437165129779
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 36.19978425789431,
+     "shift_dist": 23.371335148659448
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.01_g3_s3_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 36.60313101615578,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 86999,
+      "return_dist": 1.721564757417582e-08
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 36.31610123894052,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 65007,
+      "return_dist": 1.3315705871264072e-08
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 36.40647676290475,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 41184,
+      "return_dist": 3.248956659263058e-11
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.5721647034515627e-12,
+   "min_between": 33.32889526344257,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 33.32889526344257,
+     "shift_dist": 3.502574141714728
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 33.33001052864188,
+     "shift_dist": 1.471681402695122
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 33.341331854468834,
+     "shift_dist": 2.1300871191424466
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.01_g4_s1_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 32.81255808132754,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25508,
+      "return_dist": 1.261639681615634e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 33.24848587352189,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 50046,
+      "return_dist": 3.410605131648481e-12
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g4_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 32.9305411495711,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 37078,
+      "return_dist": 8.483880264975596e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.01",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.2811629090947463e-08,
+   "min_between": 40.69014096596492,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 41.52284825795969,
+     "shift_dist": 35.071808717713324
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 40.69014096596492,
+     "shift_dist": 14.413969121070295
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 41.50965568493061,
+     "shift_dist": 33.528795618819466
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.01_k0.01_g4_s3_st0",
+     "starts": [
+      0,
+      5
+     ],
+     "max_density": 40.14497855280245,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 62981,
+      "return_dist": 1.7432455479138298e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 41.14491785306995,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 63497,
+      "return_dist": 1.2688481376699201e-08
+     }
+    },
+    {
+     "rep": "rand303ls0.01_k0.01_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 41.03876997535468,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 78024,
+      "return_dist": 1.7699026244599736e-08
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 5.329070518200752e-12,
+   "min_between": 62.36087303230425,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 62.36087303230425,
+     "shift_dist": 6.787335973548423
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.005_g2.5_s1_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 54.298151307249256,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 10727,
+      "return_dist": 5.908162847845234e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g2.5_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 54.57302297987382,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 15899,
+      "return_dist": 1.847411112976261e-12
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 2.9521842748181375e-09,
+   "min_between": 67.38786368067723,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 67.38786368067723,
+     "shift_dist": 64.48506688698518
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 90.72309878258613,
+     "shift_dist": 68.01464786151779
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 80.56064816233578,
+     "shift_dist": 68.33916759152697
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.005_g2.5_s3_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 78.89759489924205,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 14675,
+      "return_dist": 2.9455904382302837e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 70.12000521682397,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20405,
+      "return_dist": 1.8276260504990207e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 69.02270360469632,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 28461,
+      "return_dist": 4.6630574956907375e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 8.07887090559234e-12,
+   "min_between": 67.53443678679896,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 67.53443678679896,
+     "shift_dist": 8.467025547356467
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.005_g3_s1_st0",
+     "starts": [
+      0,
+      2
+     ],
+     "max_density": 58.734148317623536,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 10280,
+      "return_dist": 4.76049422104552e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g3_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 59.05637961371376,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 23708,
+      "return_dist": 4.263256414560602e-12
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 17.087517952575514,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 73.26556033212127,
+     "shift_dist": 71.33653781346617
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 81.60841900116452,
+     "shift_dist": 71.47995475623021
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 81.47962953634598,
+     "shift_dist": 71.35894919660058
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 17.087517952575514,
+     "shift_dist": 14.803974479564317
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 74.04443235494325,
+     "shift_dist": 71.72446641587922
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 81.60399848164899,
+     "shift_dist": 71.74302817314971
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.005_g3_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 74.44765023320795,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 34841,
+      "return_dist": 7.194344675554022e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 73.59318605711695,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 24134,
+      "return_dist": 3.5362575090402974e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 72.83213038413083,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 16332,
+      "return_dist": 2.3227144652082647e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g3_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 74.78073955912393,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20203,
+      "return_dist": 2.7715429951058473e-10
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 4.810374321095879e-12,
+   "min_between": 72.81574076610445,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 73.41762815090277,
+     "shift_dist": 9.737440540414411
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 73.41904561515372,
+     "shift_dist": 10.681255200088554
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 72.81574076610445,
+     "shift_dist": 10.049835324663313
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s1_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 63.77940340582479,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 12354,
+      "return_dist": 2.986411118399702e-11
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s1_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 65.5119875683767,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 21554,
+      "return_dist": 3.3091147599861874e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s1_st5",
+     "starts": [
+      5,
+      8
+     ],
+     "max_density": 64.1190306213107,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25077,
+      "return_dist": 1.3287149158713875e-12
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.005,
+   "starts": 4,
+   "n_found": 4,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 0.0,
+   "min_between": 20.83277655088271,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 79.91347034982137,
+     "shift_dist": 77.81212066349504
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 76.94884299094883,
+     "shift_dist": 69.70876361681906
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 87.82650295897817,
+     "shift_dist": 76.03604952284807
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "dist": 20.83277655088271,
+     "shift_dist": 20.24257260602201
+    },
+    {
+     "i": 3,
+     "j": 1,
+     "dist": 80.18390783234189,
+     "shift_dist": 77.67340992762966
+    },
+    {
+     "i": 3,
+     "j": 2,
+     "dist": 71.79585385892118,
+     "shift_dist": 68.20481827442188
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s3_st0",
+     "starts": [
+      0
+     ],
+     "max_density": 79.70833852322467,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 12954,
+      "return_dist": 1.11415232595391e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 78.92644952942791,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 9999,
+      "return_dist": 1.5049579360493228e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 67.84016402224506,
+     "centers": 3,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 34667,
+      "return_dist": 5.551697768169107e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.005_g4_s3_st8",
+     "starts": [
+      8
+     ],
+     "max_density": 79.63538349912331,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 13642,
+      "return_dist": 1.362202795007761e-09
+     }
+    }
+   ],
+   "n_returned": 4
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 2.5,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.225686219186173e-12,
+   "min_between": 29.07871424608302,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 29.07871424608302,
+     "shift_dist": 0.6014992806054646
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.01_g2.5_s1_st0",
+     "starts": [
+      0,
+      2,
+      8
+     ],
+     "max_density": 25.743368201738896,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 5573,
+      "return_dist": 8.611475976749717e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g2.5_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 25.729984060621614,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 7281,
+      "return_dist": 2.3412383143295305e-12
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 2.5,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 1.2453149622615458e-09,
+   "min_between": 29.864082984764842,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 29.864082984764842,
+     "shift_dist": 28.57434798852902
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 35.88637407186838,
+     "shift_dist": 31.322258193103572
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 36.109643794130314,
+     "shift_dist": 31.572269753998892
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.01_g2.5_s3_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 39.12471396347678,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 8176,
+      "return_dist": 1.2510170677160207e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g2.5_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 35.097497624131336,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 11828,
+      "return_dist": 1.535262583729491e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g2.5_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 33.891930960293124,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 11444,
+      "return_dist": 7.534879387094407e-10
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 3.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 8.988365607365268e-13,
+   "min_between": 33.14770116161339,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 33.14770116161339,
+     "shift_dist": 1.275551279112463
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.01_g3_s1_st0",
+     "starts": [
+      0,
+      2,
+      8
+     ],
+     "max_density": 29.136257829793927,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 6247,
+      "return_dist": 2.513544927751355e-12
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g3_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 29.26907807945555,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 7175,
+      "return_dist": 1.3095124984374708e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 3.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 7.958078640513123e-13,
+   "min_between": 36.28052064314614,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 36.28052064314614,
+     "shift_dist": 35.320841519828946
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 39.6322763124401,
+     "shift_dist": 35.355500067144185
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 39.51370990015192,
+     "shift_dist": 34.60335064778941
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.01_g3_s3_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 37.564627959183824,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 20394,
+      "return_dist": 1.6271428648906296e-12
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g3_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 37.0144797861155,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 15835,
+      "return_dist": 1.636308866181935e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g3_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 36.61394722151931,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 19070,
+      "return_dist": 3.005940385492068e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 4.0,
+   "s": 1.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 2,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 3.0944136142352367e-12,
+   "min_between": 37.58345056012978,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 37.58345056012978,
+     "shift_dist": 2.205487543839517
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.01_g4_s1_st0",
+     "starts": [
+      0,
+      2,
+      8
+     ],
+     "max_density": 32.92388785924791,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 4786,
+      "return_dist": 9.654179677909271e-10
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g4_s1_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 33.04446338568693,
+     "centers": 1,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 7484,
+      "return_dist": 1.568920993122447e-09
+     }
+    }
+   ],
+   "n_returned": 2
+  },
+  {
+   "land": "rand303ls0.05",
+   "gamma": 4.0,
+   "s": 3.0,
+   "kappa": 0.01,
+   "starts": 4,
+   "n_found": 3,
+   "n_budget": 0,
+   "n_domain": 0,
+   "max_within": 3.771109646777405e-09,
+   "min_between": 38.207884975122425,
+   "pairs": [
+    {
+     "i": 1,
+     "j": 0,
+     "dist": 40.67678667463901,
+     "shift_dist": 39.576611321511976
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "dist": 38.207884975122425,
+     "shift_dist": 33.46428370547633
+    },
+    {
+     "i": 2,
+     "j": 1,
+     "dist": 38.98870174919089,
+     "shift_dist": 37.55808631722398
+    }
+   ],
+   "states": [
+    {
+     "rep": "rand303ls0.05_k0.01_g4_s3_st0",
+     "starts": [
+      0,
+      8
+     ],
+     "max_density": 40.90317740408597,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 23149,
+      "return_dist": 3.769901724126613e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g4_s3_st2",
+     "starts": [
+      2
+     ],
+     "max_density": 39.81700840605147,
+     "centers": 2,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 25341,
+      "return_dist": 4.320074964425658e-09
+     }
+    },
+    {
+     "rep": "rand303ls0.05_k0.01_g4_s3_st5",
+     "starts": [
+      5
+     ],
+     "max_density": 37.19490647219367,
+     "centers": 3,
+     "return": {
+      "status": "CONVERGED",
+      "iterations": 23437,
+      "return_dist": 5.20749310339852e-09
+     }
+    }
+   ],
+   "n_returned": 3
+  }
+ ]
+}

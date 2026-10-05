@@ -1,0 +1,6 @@
+# Native figure-reproduction environment (Python 3.12).
+# Browser NumPy/SciPy versions are locked separately by the companion.
+prefcent==0.1.1
+numpy==2.5.2
+scipy==1.18.1
+matplotlib==3.11.1

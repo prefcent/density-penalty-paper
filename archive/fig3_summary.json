@@ -1,0 +1,64 @@
+{
+ "hill_capacities": [
+  3.000699554719585,
+  2.434687830098638,
+  2.195524928140926,
+  1.4419480535272522
+ ],
+ "runs": {
+  "fig3_hills_g1.5_k0.1": {
+   "kappa": 0.1,
+   "status": "CONVERGED",
+   "iterations": 194,
+   "final_step_norm": 8.784084570834239e-13,
+   "max_density": 1.4395418585830362,
+   "min_density": 0.8044938455427195,
+   "centers": 2,
+   "hill_maxima": [
+    1.4395418585830362,
+    1.3134393264087778,
+    1.2021647496747707,
+    0.9622904810772116
+   ],
+   "margin_passed": true,
+   "kappa_at_zero": 1.4633923163796239,
+   "min_closed_mass": 0.47370815555653917
+  },
+  "fig3_hills_g1.5_k0.05": {
+   "kappa": 0.05,
+   "status": "CONVERGED",
+   "iterations": 385,
+   "final_step_norm": 9.521272659185342e-13,
+   "max_density": 1.761024069343763,
+   "min_density": 0.7357966529699922,
+   "centers": 2,
+   "hill_maxima": [
+    1.761024069343763,
+    1.457556118706537,
+    1.2340750455171574,
+    0.8995106058487683
+   ],
+   "margin_passed": true,
+   "kappa_at_zero": 0.9040673966524322,
+   "min_closed_mass": 0.4539773667457646
+  },
+  "fig3_hills_g1.5_k0.02": {
+   "kappa": 0.02,
+   "status": "CONVERGED",
+   "iterations": 2431,
+   "final_step_norm": 9.947598300641403e-13,
+   "max_density": 4.062466593934365,
+   "min_density": 0.6211645765733973,
+   "centers": 2,
+   "hill_maxima": [
+    4.062466593934365,
+    1.307136521404048,
+    1.0425666161509368,
+    0.7258828753982989
+   ],
+   "margin_passed": true,
+   "kappa_at_zero": 0.28683467666501894,
+   "min_closed_mass": 0.3964554878227566
+  }
+ }
+}
